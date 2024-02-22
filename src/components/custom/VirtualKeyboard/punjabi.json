@@ -1,0 +1,293 @@
+{
+    "row1": {
+      "key1": {
+        "id": "key1text",
+        "id2": "hKey1text",
+        "normalKey": { "gurmukhi": "`", "english": "`" },
+        "shiftKey": { "gurmukhi": "ੱ", "english": "~" }
+      },
+      "key2": {
+        "id": "key2text",
+        "id2": "hKey2text",
+        "normalKey": { "gurmukhi": "੧", "english": "1" },
+        "shiftKey": { "gurmukhi": "ਆ", "english": "!" }
+      },
+      "key3": {
+        "id": "key3text",
+        "id2": "hKey3text",
+        "normalKey": { "gurmukhi": "੨", "english": "2" },
+        "shiftKey": { "gurmukhi": "ਇ", "english": "@" }
+      },
+      "key4": {
+        "id": "key4text",
+        "id2": "hKey4text",
+        "normalKey": { "gurmukhi": "੩", "english": "3" },
+        "shiftKey": { "gurmukhi": "ਈ", "english": "#" }
+      },
+      "key5": {
+        "id": "key5text",
+        "id2": "hKey5text",
+        "normalKey": { "gurmukhi": "੪", "english": "4" },
+        "shiftKey": { "gurmukhi": "ਉ", "english": "$" }
+      },
+      "key6": {
+        "id": "key6text",
+        "id2": "hKey6text",
+        "normalKey": { "gurmukhi": "੫", "english": "5" },
+        "shiftKey": { "gurmukhi": "ਊ", "english": "%" }
+      },
+      "key7": {
+        "id": "key7text",
+        "id2": "hKey7text",
+        "normalKey": { "gurmukhi": "੬", "english": "6" },
+        "shiftKey": { "gurmukhi": "ਏ", "english": "^" }
+      },
+      "key8": {
+        "id": "key8text",
+        "id2": "hKey8text",
+        "normalKey": { "gurmukhi": "੭", "english": "7" },
+        "shiftKey": { "gurmukhi": "ਐ", "english": "&" }
+      },
+      "key9": {
+        "id": "key9text",
+        "id2": "hKey9text",
+        "normalKey": { "gurmukhi": "੮", "english": "8" },
+        "shiftKey": { "gurmukhi": "ਔ", "english": "*" }
+      },
+      "key10": {
+        "id": "key10text",
+        "id2": "hKey10text",
+        "normalKey": { "gurmukhi": "੯", "english": "9" },
+        "shiftKey": { "gurmukhi": "ਖ਼", "english": "(" }
+      },
+      "key11": {
+        "id": "key11text",
+        "id2": "hKey11text",
+        "normalKey": { "gurmukhi": "0", "english": "0" },
+        "shiftKey": { "gurmukhi": "ਫ਼", "english": ")" }
+      },
+      "key12": {
+        "id": "key12text",
+        "id2": "hKey12text",
+        "normalKey": { "gurmukhi": "-", "english": "-" },
+        "shiftKey": { "gurmukhi": "☬", "english": "_" }
+      },
+      "key13": {
+        "id": "key13text",
+        "id2": "hKey13text",
+        "normalKey": { "gurmukhi": "=", "english": "=" },
+        "shiftKey": { "gurmukhi": "+", "english": "+" }
+      }
+    },
+    "row2": {
+      "key14": {
+        "id": "key14text",
+        "id2": "hKey14text",
+        "normalKey": { "gurmukhi": "ਤ", "english": "q" },
+        "shiftKey": { "gurmukhi": "ਥ", "english": "Q" }
+      },
+      "key15": {
+        "id": "key15text",
+        "id2": "hKey15text",
+        "normalKey": { "gurmukhi": "ਾ", "english": "w" },
+        "shiftKey": { "gurmukhi": "ਾਂ", "english": "W" }
+      },
+      "key16": {
+        "id": "key16text",
+        "id2": "hKey16text",
+        "normalKey": { "gurmukhi": "ੲ", "english": "e" },
+        "shiftKey": { "gurmukhi": "ਓ", "english": "E" }
+      },
+      "key17": {
+        "id": "key17text",
+        "id2": "hKey17text",
+        "normalKey": { "gurmukhi": "ਰ", "english": "r" },
+        "shiftKey": { "gurmukhi": "੍ਰ", "english": "R" }
+      },
+      "key18": {
+        "id": "key18text",
+        "id2": "hKey18text",
+        "normalKey": { "gurmukhi": "ਟ", "english": "t" },
+        "shiftKey": { "gurmukhi": "ਠ", "english": "T" }
+      },
+      "key19": {
+        "id": "key19text",
+        "id2": "hKey19text",
+        "normalKey": { "gurmukhi": "ੇ", "english": "y" },
+        "shiftKey": { "gurmukhi": "ੈ", "english": "Y" }
+      },
+      "key20": {
+        "id": "key20text",
+        "id2": "hKey20text",
+        "normalKey": { "gurmukhi": "ੁ", "english": "u" },
+        "shiftKey": { "gurmukhi": "ੂ", "english": "U" }
+      },
+      "key21": {
+        "id": "key21text",
+        "id2": "hKey21text",
+        "normalKey": { "gurmukhi": "ਿ", "english": "i" },
+        "shiftKey": { "gurmukhi": "ੀ", "english": "I" }
+      },
+      "key22": {
+        "id": "key22text",
+        "id2": "hKey22text",
+        "normalKey": { "gurmukhi": "ੋ", "english": "o" },
+        "shiftKey": { "gurmukhi": "ੌ", "english": "O" }
+      },
+      "key23": {
+        "id": "key23text",
+        "id2": "hKey23text",
+        "normalKey": { "gurmukhi": "ਪ", "english": "p" },
+        "shiftKey": { "gurmukhi": "ਫ", "english": "P" }
+      },
+      "key24": {
+        "id": "key24text",
+        "id2": "hKey24text",
+        "normalKey": { "gurmukhi": "{", "english": "{" },
+        "shiftKey": { "gurmukhi": "", "english": "[" }
+      },
+      "key25": {
+        "id": "key25text",
+        "id2": "hKey25text",
+        "normalKey": { "gurmukhi": "}", "english": "}" },
+        "shiftKey": { "gurmukhi": "", "english": "]" }
+      },
+      "key26": {
+        "id": "key26text",
+        "id2": "hKey26text",
+        "normalKey": { "gurmukhi": "ਞ", "english": "\\" },
+        "shiftKey": { "gurmukhi": "ਙ", "english": "|" }
+      }
+    },
+    "row3": {
+      "key27": {
+        "id": "key27text",
+        "id2": "hKey27text",
+        "normalKey": { "gurmukhi": "ਅ", "english": "a" },
+        "shiftKey": { "gurmukhi": "ੳ", "english": "A" }
+      },
+      "key28": {
+        "id": "key28text",
+        "id2": "hKey28text",
+        "normalKey": { "gurmukhi": "ਸ", "english": "s" },
+        "shiftKey": { "gurmukhi": "ਸ਼", "english": "S" }
+      },
+      "key29": {
+        "id": "key29text",
+        "id2": "hKey29text",
+        "normalKey": { "gurmukhi": "ਦ", "english": "d" },
+        "shiftKey": { "gurmukhi": "ਧ", "english": "D" }
+      },
+      "key30": {
+        "id": "key30text",
+        "id2": "hKey30text",
+        "normalKey": { "gurmukhi": "ਡ", "english": "f" },
+        "shiftKey": { "gurmukhi": "ਢ", "english": "F" }
+      },
+      "key31": {
+        "id": "key31text",
+        "id2": "hKey31text",
+        "normalKey": { "gurmukhi": "ਗ", "english": "g" },
+        "shiftKey": { "gurmukhi": "ਘ", "english": "G" }
+      },
+      "key32": {
+        "id": "key32text",
+        "id2": "hKey32text",
+        "normalKey": { "gurmukhi": "ਹ", "english": "h" },
+        "shiftKey": { "gurmukhi": "੍ਹ", "english": "H" }
+      },
+      "key33": {
+        "id": "key33text",
+        "id2": "hKey33text",
+        "normalKey": { "gurmukhi": "ਜ", "english": "j" },
+        "shiftKey": { "gurmukhi": "ਝ", "english": "J" }
+      },
+      "key34": {
+        "id": "key34text",
+        "id2": "hKey34text",
+        "normalKey": { "gurmukhi": "ਕ", "english": "k" },
+        "shiftKey": { "gurmukhi": "ਖ", "english": "K" }
+      },
+      "key35": {
+        "id": "key35text",
+        "id2": "hKey35text",
+        "normalKey": { "gurmukhi": "ਲ", "english": "l" },
+        "shiftKey": { "gurmukhi": "ਲ਼", "english": "L" }
+      },
+      "key36": {
+        "id": "key36text",
+        "id2": "hKey36text",
+        "normalKey": { "gurmukhi": "ਃ", "english": ";" },
+        "shiftKey": { "gurmukhi": ";", "english": ":" }
+      },
+      "key37": {
+        "id": "key37text",
+        "id2": "hKey37text",
+        "normalKey": { "gurmukhi": "'", "english": "'" },
+        "shiftKey": { "gurmukhi": "\"", "english": "\"" }
+      }
+    },
+    "row4": {
+      "key38": {
+        "id": "key38text",
+        "id2": "hKey38text",
+        "normalKey": { "gurmukhi": "ਗ਼", "english": "z" },
+        "shiftKey": { "gurmukhi": "ਜ਼", "english": "Z" }
+      },
+      "key39": {
+        "id": "key39text",
+        "id2": "hKey39text",
+        "normalKey": { "gurmukhi": "ਣ", "english": "x" },
+        "shiftKey": { "gurmukhi": "ਯ", "english": "X" }
+      },
+      "key40": {
+        "id": "key40text",
+        "id2": "hKey40text",
+        "normalKey": { "gurmukhi": "ਚ", "english": "c" },
+        "shiftKey": { "gurmukhi": "ਛ", "english": "C" }
+      },
+      "key41": {
+        "id": "key41text",
+        "id2": "hKey41text",
+        "normalKey": { "gurmukhi": "ਵ", "english": "v" },
+        "shiftKey": { "gurmukhi": "ੜ", "english": "V" }
+      },
+      "key42": {
+        "id": "key42text",
+        "id2": "hKey42text",
+        "normalKey": { "gurmukhi": "ਬ", "english": "b" },
+        "shiftKey": { "gurmukhi": "ਭ", "english": "B" }
+      },
+      "key43": {
+        "id": "key43text",
+        "id2": "hKey43text",
+        "normalKey": { "gurmukhi": "ਨ", "english": "n" },
+        "shiftKey": { "gurmukhi": "ਂ", "english": "N" }
+      },
+      "key44": {
+        "id": "key44text",
+        "id2": "hKey44text",
+        "normalKey": { "gurmukhi": "ਮ", "english": "m" },
+        "shiftKey": { "gurmukhi": "ੰ", "english": "M" }
+      },
+      "key45": {
+        "id": "key45text",
+        "id2": "hKey45text",
+        "normalKey": { "gurmukhi": "ੴ", "english": "," },
+        "shiftKey": { "gurmukhi": ",", "english": "<" }
+      },
+      "key46": {
+        "id": "key46text",
+        "id2": "hKey46text",
+        "normalKey": { "gurmukhi": "।", "english": "." },
+        "shiftKey": { "gurmukhi": ".", "english": ">" }
+      },
+      "key47": {
+        "id": "key47text",
+        "id2": "hKey47text",
+        "normalKey": { "gurmukhi": "॥", "english": "/" },
+        "shiftKey": { "gurmukhi": "?", "english": "/" }
+      }
+    }
+  }
+  
