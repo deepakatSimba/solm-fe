@@ -17,7 +17,7 @@ interface PageProps {
 
 const Page = ({ title, breadcrumbs, primaryAction, children }: PageProps) => {
   return (
-    <div className="bg-white rounded-lg p-3 md:p-4 lg:p-[18x] xl:p-6 max-h-fit min-h-[90vh]">
+    <div className="bg-white p-3 md:p-4 lg:p-[18x] xl:p-6 max-h-fit min-h-[95vh]">
       <div className="flex my-1">
         {/* breadcrumbs */}
         <ol className="inline-flex items-center space-x-1 rtl:space-x-reverse flex-wrap">

@@ -146,3 +146,8 @@ input[type="search"] {
     rgba(221, 103, 49, 0.022) 100%
   );
 }
+
+.filter-orange {
+  filter: invert(48%) sepia(72%) saturate(1124%) hue-rotate(340deg)
+    brightness(90%) contrast(91%);
+}

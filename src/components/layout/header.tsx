@@ -27,7 +27,7 @@ const Header = () => {
   };
 
   return (
-    <nav className="flex justify-between px-5 lg:px-12 items-center h-[72px] py-2 md:py-5 border-b">
+    <nav className="flex justify-between px-5 lg:px-12 items-center h-[72px] py-2 md:py-5 border-b border-[#0000001f]">
       <div className="logo mr-2">
         <img src={logo} className="h-fit" />
       </div>

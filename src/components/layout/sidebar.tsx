@@ -4,87 +4,35 @@ import { useLocation, useNavigate } from "react-router-dom";
 import { Sheet, SheetContent, SheetTrigger } from "../ui/sheet";
 import { Button } from "../ui/button";
 import { CgMenuGridR } from "react-icons/cg";
-import { useAtom } from "jotai";
-import { meUser } from "../../store";
+import dashboard from "@/assets/images/dashboard.png";
+import chat from "@/assets/images/chat.svg";
+import request from "@/assets/images/request.svg";
 
-import { Dashboard, Decks, Pacing, Quiz } from "../svg/svg";
-import { MdOutlineMessage } from "react-icons/md";
-import { BsCollection } from "react-icons/bs";
-import { FiUserPlus } from "react-icons/fi";
-
+const sidebarOptions = [
+  {
+    id: 0,
+    icon: dashboard,
+    label: "Dashboard",
+    redirect: "/dashboard",
+  },
+  {
+    id: 1,
+    icon: chat,
+    label: "All Request",
+    redirect: "/all-hires",
+  },
+  {
+    id: 1,
+    icon: request,
+    label: "All Request",
+    redirect: "/all-requests",
+  },
+];
 const Sidebar = () => {
   const navigate = useNavigate();
   const pathName = useLocation();
   const [isOpen, setIsOpen] = useState(false);
-  const [loggedInUser] = useAtom(meUser);
 
-  const adminSidebarOptions = [
-    {
-      id: 0,
-      icon: <Dashboard />,
-      label: "Dashboard",
-      redirect: "/adminDashboard",
-    },
-    {
-      id: 1,
-      icon: <FiUserPlus />,
-      label: "Invitation",
-      redirect: "/invitations",
-    },
-    {
-      id: 2,
-      icon: <BsCollection />,
-      label: "Vocabulary Collection",
-      redirect: "/vocabularycollections",
-    },
-    {
-      id: 3,
-      icon: <MdOutlineMessage />,
-      label: "Notification",
-      redirect: "/send-notification",
-    },
-    // {
-    //   id: 4,
-    //   icon: <Decks />,
-    //   label: "Collections",
-    //   redirect: "/collections",
-    // },
-  ];
-
-  const sidebarOptions = [
-    {
-      id: 0,
-      icon: <Dashboard />,
-      label: "Dashboard",
-      redirect: "/dashboard",
-    },
-    {
-      id: 1,
-      icon: <Decks />,
-      label: "Decks",
-      redirect: "/all-requests",
-    },
-    {
-      id: 2,
-      icon: <Pacing />,
-      label: "Pacing",
-      // redirect: "problemWords",
-    },
-    {
-      id: 3,
-      icon: <Quiz />,
-      label: "Quiz",
-      // redirect: "/quiz",
-    },
-  ];
-
-  const author = () => {
-    if (loggedInUser?.[0]?.role == "admin") {
-      return adminSidebarOptions;
-    } else {
-      return sidebarOptions;
-    }
-  };
   const [isSidebarOpen, setIsSidebarOpen] = useState<boolean>(false);
   const [windowWidth, setWindowWidth] = useState<number>(window.innerWidth);
 
@@ -102,33 +50,33 @@ const Sidebar = () => {
     <>
       {windowWidth > 768 ? (
         <div
-          className={`border-t flex border-r flex-col justify-between h-[90vh] lg:h-[92vh]
+          className={`flex border-r border-[#0000001f] flex-col justify-between h-[90vh] lg:h-[92vh]
           `}
           style={{
             width: isSidebarOpen ? "280px" : "70px",
             transition: "all 0.3s ease-in-out ",
             overflowX: "hidden",
           }}
-          // onMouseOver={() => setIsSidebarOpen(true)}
-          // onMouseOut={() => setIsSidebarOpen(false)}
         >
           <div className="options mt-8">
-            {author()?.map((val: any) => (
+            {sidebarOptions?.map((val: any) => (
               <div
                 key={val?.id}
                 className={`flex justify-start items-center gap-2 my-2 cursor-pointer ${
                   pathName?.pathname?.includes(val?.redirect)
-                    ? "bg-gray-300 border-r-4 border-primary"
+                    ? "bg-gray-200 border-r-4 border-primary"
                     : ""
                 } ml-3 px-2 pl-3 rounded-l-3xl`}
                 onClick={() => navigate(val?.redirect)}
               >
                 <span
                   className={`text-lg xl:text-xl py-3 ${
-                    pathName?.pathname?.includes(val?.redirect) ? "text-" : ""
+                    pathName?.pathname?.includes(val?.redirect)
+                      ? "filter-orange"
+                      : ""
                   }`}
                 >
-                  {val?.icon}
+                  <img src={val?.icon} alt={val?.icon} className="size-[26px]" />
                 </span>
                 {isSidebarOpen && (
                   <div
@@ -172,7 +120,7 @@ const Sidebar = () => {
             <SheetContent side="left" className="p-1 w-[250px]">
               <div className="flex flex-col justify-between h-full pr-2">
                 <div className="options m-1 mt-8">
-                  {author()?.map((val: any) => (
+                  {sidebarOptions?.map((val: any) => (
                     <div
                       key={val?.id}
                       className="flex justify-start items-center gap-2 my-2 cursor-pointer"

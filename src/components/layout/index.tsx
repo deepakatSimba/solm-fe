@@ -8,7 +8,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       <Header />
       <div className="flex w-full h-[90%] lg:h-[92%]">
         <Sidebar />
-        <div className="bg-gray-200 w-full md:p-2 xl:p-4 h-[100%] overflow-scroll scrollbar-hide">
+        <div className="bg-gray-200 w-full h-[100%] overflow-scroll scrollbar-hide">
           {children}
         </div>
       </div>
